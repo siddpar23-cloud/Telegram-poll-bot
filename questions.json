@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "question": "Which vitamin deficiency causes scurvy?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correct": 2,
+    "solution": "Scurvy is caused by Vitamin C deficiency."
+  }
+]
