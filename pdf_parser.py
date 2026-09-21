@@ -4,7 +4,7 @@ import json
 
 questions = []
 
-doc = fitz.open("sample.pdf")
+doc = fitz.open("NEET_PG_2025_Question_Paper_with_Solutions_edf8c1fd790843d752a51ac37b5071a8 (1).pdf")
 
 text = ""
 for page in doc:
