@@ -1,11 +1,10 @@
 from telegram import Bot
 from telegram.constants import ParseMode
-import json
 
 class TelegramBot:
 
     def __init__(self, token, channel):
-        self.bot = Bot(token)
+        self.bot = Bot(token=token)
         self.channel = channel
 
     async def send_quiz(self, question):
@@ -19,9 +18,9 @@ class TelegramBot:
             is_anonymous=True
         )
 
-        if question.get("solution"):
+        if "solution" in question:
             await self.bot.send_message(
                 chat_id=self.channel,
-                text="📖 Explanation\n\n"+question["solution"],
+                text=f"📖 <b>Explanation</b>\n\n{question['solution']}",
                 parse_mode=ParseMode.HTML
             )
