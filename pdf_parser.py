@@ -1,15 +1,25 @@
 import fitz
+import re
 import json
 
-def extract_text(pdf_path):
-    doc = fitz.open(pdf_path)
-    text = ""
+questions = []
 
-    for page in doc:
-        text += page.get_text()
+doc = fitz.open("sample.pdf")
 
-    return text
+text = ""
+for page in doc:
+    text += page.get_text()
 
-if __name__ == "__main__":
-    text = extract_text("sample.pdf")
-    print(text[:1000])
+pattern = r"(\d+\..*?)(?=\n\d+\.|\Z)"
+
+matches = re.findall(pattern, text, re.S)
+
+for item in matches:
+    questions.append({
+        "raw": item.strip()
+    })
+
+with open("questions.json", "w", encoding="utf-8") as f:
+    json.dump(questions, f, indent=4, ensure_ascii=False)
+
+print(f"{len(questions)} questions extracted.")
