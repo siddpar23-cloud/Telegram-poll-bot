@@ -1,12 +1,12 @@
 import asyncio
 import json
 import threading
-import os
 
 from flask import Flask
 
 from config import BOT_TOKEN, CHANNEL_ID, QUESTIONS_PER_DAY
 from telegram_bot import TelegramBot
+
 
 app = Flask(__name__)
 
@@ -17,6 +17,9 @@ def home():
 
 
 async def send_questions():
+
+    print("SENDING FUNCTION STARTED")
+
     bot = TelegramBot(BOT_TOKEN, CHANNEL_ID)
 
     with open("questions.json", "r", encoding="utf-8") as f:
@@ -26,38 +29,43 @@ async def send_questions():
         print("No questions found.")
         return
 
-    while True:
+    with open("progress.json", "r") as f:
+        progress = json.load(f)
 
-        with open("progress.json", "r") as f:
-            progress = json.load(f)
+    start = progress["last_question"]
 
-        start = progress["last_question"]
-        end = min(start + QUESTIONS_PER_DAY, len(questions))
+    print("Starting from question:", start + 1)
 
-        for i in range(start, end):
-            await bot.send_quiz(questions[i])
+    end = min(start + QUESTIONS_PER_DAY, len(questions))
 
-            with open("progress.json", "w") as f:
-                json.dump({"last_question": i + 1}, f)
+    for i in range(start, end):
 
-            await asyncio.sleep(45)
+        await bot.send_quiz(questions[i])
 
-        if end >= len(questions):
-            print("All questions completed.")
-            break
+        print("Sent question:", i + 1)
 
-        await asyncio.sleep(86400)
+        with open("progress.json", "w") as f:
+            json.dump({"last_question": i + 1}, f)
+
+        await asyncio.sleep(45)
+
+    print("Today's questions completed.")
+
 
 
 def start_bot():
+
+    print("BOT THREAD STARTED")
+
     asyncio.run(send_questions())
 
 
 if __name__ == "__main__":
+
     thread = threading.Thread(target=start_bot)
     thread.start()
 
-    app.run(host="0.0.0.0", port=10000)
-def start_bot():
-    print("BOT THREAD STARTED")
-    asyncio.run(send_questions())
+    app.run(
+        host="0.0.0.0",
+        port=10000
+    )
