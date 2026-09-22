@@ -11,5 +11,3 @@
     "solution": "Scurvy is caused by Vitamin C deficiency."
   }
 ]
-async def send_questions():
-    print("SENDING FUNCTION STARTED")
