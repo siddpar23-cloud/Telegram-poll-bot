@@ -1,13 +1,196 @@
 [
   {
-    "question": ".....",
+    "question": "Image below highlights jugular foramen. Which of the following structures do not pass through the marked structure “A”?",
     "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+      "Glossopharyngeal nerve",
+      "Accessory nerve",
+      "Vagus nerve",
+      "Hypoglossal nerve"
+    ],
+    "correct": 3,
+    "solution": "Concept: The jugular foramen is an opening in the posterior cranial fossa through which important cranial nerves and venous structures pass. The cranial nerves passing through it are IX, X and XI. Step 1: Recall the contents of jugular foramen. The jugular foramen transmits: Glossopharyngeal nerve (IX), Vagus nerve (X), Accessory nerve (XI) It also transmits the sigmoid sinus continuing as internal jugular vein. Step 2: Identify the nerve that does not pass through it. The hypoglossal nerve is cranial nerve XII. It passes through the hypoglossal canal, not through the jugular foramen. Step 3: Choose the correct option. Therefore, the structure that does not pass through the jugular foramen is: Hypoglossal nerve Quick Tip: Jugular foramen transmits cranial nerves IX, X and XI. Hypoglossal nerve XII passes through the hypoglossal canal."
+  },
+  {
+    "question": "The defect shown in image relates to which of the following?",
+    "options": [
+      "Left 4th aortic arch",
+      "Right 4th aortic arch NEET PG 2025 Page 2 of 175 ©️ Collegedunia.com",
+      "Left 6th aortic arch",
+      "Right 6th aortic arch"
+    ],
+    "correct": 1,
+    "solution": "Concept: Aortic arch derivatives are important in embryology. The 4th aortic arch contributes to major arterial structures on both sides. Step 1: Recall derivatives of the 4th arch. The left 4th aortic arch forms part of the arch of aorta. The right 4th aortic arch forms part of the right subclavian artery. Step 2: Relate the image defect. The defect shown in the heart and great vessel image corresponds to abnormal development involving the right-sided arch derivative. Step 3: Choose the correct embryological structure. Thus, the defect relates to: Right 4th aortic arch Quick Tip: Left 4th aortic arch forms part of the arch of aorta, while right 4th aortic arch contributes to the right subclavian artery."
+  },
+  {
+    "question": "Which of the following is not carried by the structure marked “A” in the image?",
+    "options": ["GSA", "GVA", "GSE", "GVE"],
+    "correct": 2,
+    "solution": "Concept: Cranial nerves carry different functional components such as GSA, GVA, GVE, SVE, SVA and GSE. GSE fibers are motor fibers supplying muscles derived from somites, such as extraocular muscles and tongue muscles. Step 1: Understand GSE fibers. GSE means: General Somatic Efferent These fibers supply skeletal muscles derived from somites. Step 2: Identify common nerves carrying GSE. GSE fibers are classically carried by cranial nerves: III, IV, V I, X II These supply extraocular muscles and tongue muscles. Step 3: Select the component not carried. The marked structure does not carry GSE fibers. Therefore, the correct answer is: GSE Quick Tip: GSE fibers are mainly associated with cranial nerves III, IV, VI and XII."
+  },
+  {
+    "question": "What are the contents of umbilical cord?",
+    "options": [
+      "2 arteries, 2 veins",
+      "1 artery, 2 veins",
+      "2 arteries, 1 vein",
+      "1 artery, 1 vein"
     ],
     "correct": 2,
-    "solution": "....."
-  }
-]
+    "solution": "Concept: The normal umbilical cord contains three blood vessels embedded in Wharton’s jelly. Step 1: Recall normal umbilical cord vessels. NEET PG 2025 Page 4 of 175 ©️ Collegedunia.com The umbilical cord normally contains: 2 umbilical arteries + 1 umbilical vein Step 2: Understand function. The two umbilical arteries carry deoxygenated blood from fetus to placenta. The single umbilical vein carries oxygenated blood from placenta to fetus. Step 3: Choose the correct answer. Therefore, the contents are: 2 arteries and 1 vein Quick Tip: Umbilical cord has two arteries and one vein. Remember: AAV = Artery, Artery, Vein."
+  },
+  {
+    "question": "What is the root value responsible for Meralgia paresthetica?",
+    "options": ["T12 and L1", "L2 and L3", "L2, L3 and L4", "L1 and L2"],
+    "correct": 1,
+    "solution": "Concept: Meralgia paresthetica is caused by compression or irritation of the lateral femoral cutaneous nerve. Step 1: Identify the nerve involved. Meralgia paresthetica involves: Lateral femoral cutaneous nerve Step 2: Recall root value. The lateral femoral cutaneous nerve arises from: L2, L3 NEET PG 2025 Page 5 of 175 ©️ Collegedunia.com Step 3: Relate with clinical feature. Compression causes burning pain, tingling and numbness over the lateral thigh. Therefore, the root value is: L2 and L3 Quick Tip: Meralgia paresthetica = lateral femoral cutaneous nerve compression = L2, L3."
+  },
+  {
+    "question": "A girl presented with foot injury and gave history of forceful eversion of foot. Which of the following structure is affected the most?",
+    "options": [
+      "Anterior talofibular ligament",
+      "Deltoid ligament",
+      "Posterior talofibular ligament",
+      "Calcaneofibular ligament"
+    ],
+    "correct": 1,
+    "solution": "Concept: The deltoid ligament is the strong medial ligament of the ankle. It resists excessive eversion of the foot. Step 1: Identify the movement causing injury. The history mentions: Forceful eversion of foot Step 2: Recall ligament resisting eversion. The ligament resisting eversion is the medial collateral ligament of ankle, also called: Deltoid ligament Step 3: Choose the affected structure. Therefore, the structure most affected is: Deltoid ligament NEET PG 2025 Page 6 of 175 ©️ Collegedunia.com Quick Tip: Eversion injury affects the deltoid ligament; inversion injury commonly affects lateral ankle ligaments."
+  },
+  {
+    "question": "A patient presents with muscle wasting, reduced tone, and weakness in the left hand. Fine motor movements like dough kneading are impaired. Which of the following structure is most likely affected?",
+    "options": [
+      "Right anterior horn cells in spinal cord",
+      "Pyramidal lesion",
+      "Internal capsule",
+      "Left corticospinal tract in the cervical cord"
+    ],
+    "correct": 0,
+    "solution": "Concept: Muscle wasting, reduced tone and weakness suggest a lower motor neuron lesion. Anterior horn cells are lower motor neurons. Step 1: Identify clinical signs. The findings are: Muscle wasting + reduced tone + weakness These indicate lower motor neuron involvement. Step 2: Recall lower motor neuron location. The anterior horn cells of the spinal cord are lower motor neurons supplying skeletal muscles. Step 3: Choose the best answer. Among the options, anterior horn cell involvement best explains wasting and reduced tone. Therefore, the correct answer is: Right anterior horn cells in spinal cord Quick Tip: Lower motor neuron lesion causes wasting, fasciculations, weakness and reduced tone. Upper motor neuron lesion causes increased tone and exaggerated reflexes."
+  },
+  {
+    "question": "Identify the structure where the shown epithelium is located. NEET PG 2025 Page 7 of 175 ©️ Collegedunia.com",
+    "options": ["Esophagus", "Ureter", "Fallopian tube", "Trachea"],
+    "correct": 1,
+    "solution": "Concept: The ureter is lined by transitional epithelium, also called urothelium. It allows stretching and recoil. Step 1: Identify the epithelium. The epithelium shown is transitional epithelium. Step 2: Recall where transitional epithelium is found. Transitional epithelium is found in: Renal pelvis, ureter, urinary bladder and upper urethra Step 3: Select the correct structure. Among the options, the structure lined by transitional epithelium is: Ureter Quick Tip: Transitional epithelium is found in the urinary tract, especially ureter and urinary bladder."
+  },
+  {
+    "question": "What is the nerve supply of the marked structure “A”? NEET PG 2025 Page 8 of 175 ©️ Collegedunia.com",
+    "options": [
+      "Nerve to mylohyoid and facial nerve",
+      "Facial nerve and mandibular nerve",
+      "Mandibular nerve and spinal accessory nerve",
+      "Facial nerve and spinal accessory nerve"
+    ],
+    "correct": 1,
+    "solution": "Concept: The marked structure is supplied by two nerves: facial nerve and mandibular nerve. This is commonly tested in structures related to facial expression and mandibular arch muscle contribution. Step 1: Identify the supplied structure. The structure marked in the image has dual nerve supply. Step 2: Recall the nerve supply. The two nerves involved are: Facial nerve + Mandibular nerve Step 3: Choose the correct option. Therefore, the correct nerve supply is: Facial nerve and mandibular nerve Quick Tip: When a head and neck structure has mixed embryological origin, it may show dual nerve supply."
+  },
+  {
+    "question": "During resection of submandibular gland, there is accidental injury to a structure running superior to the posterior belly of digastric muscle. Which of the following structure is likely to be injured? NEET PG 2025 Page 9 of 175 ©️ Collegedunia.com",
+    "options": [
+      "Lingual nerve",
+      "Marginal mandibular nerve",
+      "Trigeminal nerve",
+      "Hypoglossal nerve"
+    ],
+    "correct": 1,
+    "solution": "Concept: The marginal mandibular branch of the facial nerve is clinically important during surgeries in the submandibular region. Step 1: Identify the surgical area. The surgery is: Submandibular gland resection Step 2: Recall nerve at risk. The marginal mandibular nerve runs near the lower border of mandible and is at risk during submandibular gland surgery. Step 3: Choose the injured structure. Thus, the likely injured structure is: Marginal mandibular nerve Quick Tip: In submandibular gland surgery, always remember the marginal mandibular nerve is at risk. NEET PG 2025 Page 10 of 175 ©️ Collegedunia.com"
+  },
+  {
+    "question": "A 20-year-old boy got severe pain due to hyperextension of shoulder while training in the gym. The trainer expected a probable disruption of the structure marked “A” in the image below. Which site is affected?",
+    "options": [
+      "Shaft of humerus",
+      "Deltoid tubercle of humerus",
+      "Infraglenoid tubercle of scapula",
+      "Supraglenoid tubercle of scapula"
+    ],
+    "correct": 2,
+    "solution": "Concept: The long head of triceps brachii originates from the infraglenoid tubercle of scapula. Shoulder hyperextension can stress structures attached near the glenoid region. Step 1: Recall attachment. The long head of triceps originates from: Infraglenoid tubercle of scapula Step 2: Relate with shoulder movement. Hyperextension of the shoulder can cause traction injury at the origin of the long head of triceps. Step 3: Choose the affected site. Therefore, the affected site is: Infraglenoid tubercle of scapula Quick Tip: Long head of triceps originates from the infraglenoid tubercle; long head of biceps originates from the supraglenoid tubercle."
+  },
+  {
+    "question": "Patients administered sevoflurane and succinylcholine for abdominal surgery develops post-operative muscle rigidity. What is the drug of choice here?",
+    "options": [
+      "Dantrolene",
+      "Diazepam NEET PG 2025 Page 11 of 175 ©️ Collegedunia.com",
+      "Propranolol",
+      "Paracetamol"
+    ],
+    "correct": 0,
+    "solution": "Concept: Sevoflurane and succinylcholine can trigger malignant hyperthermia in susceptible individuals. It presents with muscle rigidity, hyperthermia, acidosis and hyperkalemia. Step 1: Identify the condition. The patient develops muscle rigidity after exposure to: Volatile anesthetic + succinylcholine This suggests malignant hyperthermia. Step 2: Recall drug of choice. The drug of choice for malignant hyperthermia is: Dantrolene Step 3: Mechanism of action. Dantrolene acts on ryanodine receptors and reduces calcium release from sarcoplasmic reticu- lum. Quick Tip: Malignant hyperthermia after succinylcholine or volatile anesthetics is treated with dantro- lene."
+  },
+  {
+    "question": "A patient was administered a muscle relaxant and subsequently developed erythema, facial flushing, and hypotension. Which drug is most likely responsible for these symptoms?",
+    "options": ["Cisatracurium", "Atracurium", "Rocuronium", "Vecuronium"],
+    "correct": 1,
+    "solution": "Concept: Atracurium can cause histamine release. Histamine release may produce erythema, flushing, hypotension and bronchospasm. Step 1: Identify symptoms. The symptoms are: Erythema + facial flushing + hypotension These suggest histamine release. Step 2: Recall muscle relaxant causing histamine release. Atracurium is known to cause histamine release more than cisatracurium. Step 3: Choose the correct drug. Therefore, the responsible drug is: Atracurium Quick Tip: Atracurium can cause histamine release, leading to flushing, erythema and hypotension."
+  },
+  {
+    "question": "In Hurler syndrome, which glycosaminoglycans accumulate and cause organ enlargement?",
+    "options": [
+      "Keratan sulfate and dermatan sulfate",
+      "Keratan sulfate and heparan sulfate",
+      "Heparan sulfate and dermatan sulfate",
+      "Keratan sulfate and hyaluronic acid"
+    ],
+    "correct": 2,
+    "solution": "Concept: Hurler syndrome is a mucopolysaccharidosis caused by deficiency of alpha-L- iduronidase. It leads to accumulation of specific glycosaminoglycans. Step 1: Recall enzyme deficiency. Hurler syndrome is due to deficiency of: α-L-iduronidase Step 2: Identify accumulated substances. NEET PG 2025 Page 13 of 175 ©️ Collegedunia.com The accumulated glycosaminoglycans are: Heparan sulfate and dermatan sulfate Step 3: Relate with organ enlargement. Their accumulation causes coarse facies, organomegaly and skeletal abnormalities. Quick Tip: Hurler syndrome = alpha-L-iduronidase deficiency = accumulation of heparan sulfate and dermatan sulfate."
+  },
+  {
+    "question": "A child presents with gum bleeding, perifollicular hemorrhages, petechiae, and recurrent fractures. Which enzyme deficiency is most likely?",
+    "options": [
+      "Lysyl oxidase",
+      "Prolyl hydroxylase",
+      "Tyrosinase",
+      "Alkaline phosphatase"
+    ],
+    "correct": 1,
+    "solution": "Concept: Gum bleeding, perifollicular hemorrhage and bone fragility suggest vitamin C deficiency. Vitamin C is required for hydroxylation of proline and lysine during collagen synthesis. Step 1: Identify clinical syndrome. The symptoms suggest: Scurvy which is due to vitamin C deficiency. Step 2: Recall enzyme affected. Vitamin C is a cofactor for: Prolyl hydroxylase and lysyl hydroxylase. Step 3: Choose the best option. NEET PG 2025 Page 14 of 175 ©️ Collegedunia.com Among the options, the most likely enzyme deficiency is: Prolyl hydroxylase Quick Tip: Vitamin C deficiency impairs collagen synthesis by reducing hydroxylation of proline and lysine."
+  },
+  {
+    "question": "A man survives 5 days without food. What is the brain’s primary energy source during this prolonged fasting period?",
+    "options": ["Gluconeogenesis", "Glycogenolysis", "Ketosis", "Lipolysis"],
+    "correct": 2,
+    "solution": "Concept: During prolonged fasting, the liver produces ketone bodies from fatty acids. After a few days of fasting, the brain starts using ketone bodies as a major energy source. Step 1: Understand early fasting. In early fasting, glucose is supplied by glycogenolysis and gluconeogenesis. Step 2: Understand prolonged fasting. After several days, glycogen stores are depleted and ketone body production increases. Step 3: Brain fuel after 5 days. At around 5 days of starvation, the brain significantly uses: Ketone bodies Quick Tip: In prolonged fasting, the brain shifts from glucose dependence to using ketone bodies."
+  },
+  {
+    "question": "A patient has high phenylalanine levels despite normal phenylalanine hydroxylase. Which NEET PG 2025 Page 15 of 175 ©️ Collegedunia.com cofactor deficiency is most likely responsible?",
+    "options": [
+      "Tetrahydrofolate",
+      "Tetrahydrobiopterin (BH4)",
+      "Thiamine",
+      "Pyridoxine"
+    ],
+    "correct": 1,
+    "solution": "Concept: Phenylalanine hydroxylase converts phenylalanine to tyrosine. This enzyme requires tetrahydrobiopterin, also called BH4, as a cofactor. Step 1: Recall the reaction. Phenylalanine →Tyrosine This reaction is catalyzed by phenylalanine hydroxylase. Step 2: Identify the required cofactor. The required cofactor is: BH4 Step 3: Interpret the condition. If phenylalanine hydroxylase is normal but phenylalanine is high, the problem is likely BH4 deficiency. Quick Tip: Phenylalanine hydroxylase requires BH4. BH4 deficiency can mimic phenylketonuria."
+  },
+  {
+    "question": "A patient with vitamin B12 deficiency presents with anemia, positive Romberg sign, and elevated homocysteine. Which amino acid is most likely deficient?",
+    "options": ["Cysteine", "Methionine", "Tyrosine", "Glutamate"],
+    "correct": 1,
+    "solution": "Concept: Vitamin B12 is required for conversion of homocysteine to methionine. Deficiency causes elevated homocysteine and reduced methionine formation. Step 1: Recall B12-dependent reaction. Vitamin B12 acts as a cofactor for methionine synthase: Homocysteine →Methionine Step 2: Effect of B12 deficiency. When B12 is deficient: Homocysteine increases and methionine synthesis decreases. Step 3: Select the deficient amino acid. Therefore, the amino acid most likely deficient is: Methionine Quick Tip: Vitamin B12 deficiency causes increased homocysteine because homocysteine cannot be converted efficiently to methionine."
+  },
+  {
+    "question": "A patient on long-term hydrochlorothiazide develops neuropathy, heart failure, and symmetrical paresthesia. Which nutrient deficiency is most likely responsible?",
+    "options": ["Selenium", "Thiamine", "Vitamin B12", "Zinc"],
+    "correct": 1,
+    "solution": "Concept: Thiamine deficiency can cause neuropathy and cardiac failure. It is associated with beriberi. Step 1: Identify symptoms. NEET PG 2025 Page 17 of 175 ©️ Collegedunia.com The patient has: Neuropathy + paresthesia + heart failure This suggests thiamine deficiency. Step 2: Recall thiamine deficiency syndromes. Thiamine deficiency causes: Dry beriberi = neuropathy Wet beriberi = heart failure Step 3: Choose the nutrient. Therefore, the most likely deficiency is: Thiamine Quick Tip: Thiamine deficiency causes dry beriberi with neuropathy and wet beriberi with heart failure."
+  },
+  {
+    "question": "A frameshift mutation from nucleotide insertion at position 4 of a 900-base mRNA is observed. What is the likely outcome?",
+    "options": [
+      "No change in the final protein",
+      "Partial protein production",
+      "Complete change in protein production",
+      "No change due to RNA editing"
+    ],
+    "correct": 2,
+    "solution": "Concept: A frameshift mutation occurs when nucleotides are inserted or deleted in numbers not divisible by three. This changes the reading frame of codons. Step 1: Identify mutation type. The question mentions nucleotide insertion at position 4. Since insertion shifts the reading frame, it is a frameshift mutation. Step 2: Effect of early frameshift. NEET PG 2025 Page 18 of 175 ©️ Collegedunia.com Because the insertion occurs near the beginning of the mRNA, most codons downstream will be changed. Step 3: Final outcome. This can cause a completely altered protein sequence or premature stop codon. Therefore, the likely outcome is: Complete change in protein production Quick Tip: Frameshift mutation early in a coding sequence usually has a severe effect because all downstream codons change."
+  },
+  {
+    "question": "A patient develops skin cancer and worsening hyperpigmentation following sun exposure. Which DNA repair pathway is most likely impaired?",
+    "options": [
+      "Nucleotide excision repair",
+      "Base excision repair",
+      "Non-homologous end joining (NHEJ)",
+      "Mismatch repair"
+    ],
+    "correct": 0,
+    "solution": "Concept: Ultraviolet radiation causes pyrimidine dimers in DNA. These are repaired by nucleotid
