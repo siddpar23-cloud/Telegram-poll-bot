@@ -1,6 +1,7 @@
 import asyncio
 import json
 import threading
+import os
 
 from flask import Flask
 
@@ -9,9 +10,11 @@ from telegram_bot import TelegramBot
 
 app = Flask(__name__)
 
+
 @app.route("/")
 def home():
     return "Bot is running!"
+
 
 async def send_questions():
     bot = TelegramBot(BOT_TOKEN, CHANNEL_ID)
@@ -23,16 +26,26 @@ async def send_questions():
         print("No questions found.")
         return
 
-    limit = min(QUESTIONS_PER_DAY, len(questions))
-
     while True:
-        for i in range(limit):
+
+        with open("progress.json", "r") as f:
+            progress = json.load(f)
+
+        start = progress["last_question"]
+        end = min(start + QUESTIONS_PER_DAY, len(questions))
+
+        for i in range(start, end):
             await bot.send_quiz(questions[i])
 
-            if i != limit - 1:
-                await asyncio.sleep(45)
+            with open("progress.json", "w") as f:
+                json.dump({"last_question": i + 1}, f)
 
-        print("Today's questions completed.")
+            await asyncio.sleep(45)
+
+        if end >= len(questions):
+            print("All questions completed.")
+            break
+
         await asyncio.sleep(86400)
 
 
