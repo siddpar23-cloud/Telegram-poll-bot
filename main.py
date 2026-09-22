@@ -58,3 +58,6 @@ if __name__ == "__main__":
     thread.start()
 
     app.run(host="0.0.0.0", port=10000)
+def start_bot():
+    print("BOT THREAD STARTED")
+    asyncio.run(send_questions())
