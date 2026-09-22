@@ -8,34 +8,106 @@ doc = fitz.open(PDF_FILE)
 
 text = ""
 for page in doc:
-    text += page.get_text() + "\n"
+    text += page.get_text("text") + "\n"
 
-# Split into questions
-blocks = re.split(r"\n(?=\d+\.\s)", text)
+# Split using question numbers
+blocks = re.split(r"(?=\n\d+\.\s)", "\n" + text)
 
 questions = []
 
 for block in blocks:
 
-    q = re.search(r"^\d+\.\s(.*?)(?=\n\(A\))", block, re.S)
-    opts = re.findall(r"\(([A-D])\)\s(.*)", block)
-    ans = re.search(r"Correct Answer:\s*\(([A-D])\)", block)
-    sol = re.search(r"Solution:\s*(.*?)(?=\n\d+\.\s|\Z)", block, re.S)
+    block = block.strip()
 
-    if not q or len(opts) != 4 or not ans:
+    if not block:
         continue
 
-    option_text = [x[1].strip() for x in opts]
-    correct = {"A":0,"B":1,"C":2,"D":3}[ans.group(1)]
+    # Question
+    q_match = re.search(
+        r"^\d+\.\s(.*?)(?=\n\(A\))",
+        block,
+        re.S,
+    )
 
-    questions.append({
-        "question": q.group(1).replace("\n"," ").strip(),
-        "options": option_text,
-        "correct": correct,
-        "solution": sol.group(1).strip() if sol else ""
-    })
+    if not q_match:
+        continue
 
-with open("questions.json","w",encoding="utf-8") as f:
-    json.dump(questions,f,indent=4,ensure_ascii=False)
+    question = re.sub(r"\s+", " ", q_match.group(1)).strip()
 
-print(f"Parsed {len(questions)} questions.")
+    # Options
+    option_matches = re.findall(
+        r"\(([A-D])\)\s*(.+?)(?=\n\([A-D]\)|\nCorrect Answer:|\Z)",
+        block,
+        re.S,
+    )
+
+    if len(option_matches) != 4:
+        continue
+
+    options = []
+
+    for _, opt in option_matches:
+        opt = re.sub(r"\s+", " ", opt).strip()
+        options.append(opt)
+
+    # Correct answer
+    ans_match = re.search(
+        r"Correct Answer:\s*\(([A-D])\)",
+        block,
+    )
+
+    if not ans_match:
+        continue
+
+    correct = {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 3
+    }[ans_match.group(1)]
+
+    # Solution
+    sol_match = re.search(
+        r"Solution:\s*(.*?)(?=\n\d+\.\s|\Z)",
+        block,
+        re.S,
+    )
+
+    solution = ""
+
+    if sol_match:
+        solution = re.sub(
+            r"\s+",
+            " ",
+            sol_match.group(1)
+        ).strip()
+
+    questions.append(
+        {
+            "question": question,
+            "options": options,
+            "correct": correct,
+            "solution": solution,
+        }
+    )
+
+with open(
+    "questions.json",
+    "w",
+    encoding="utf-8"
+) as f:
+    json.dump(
+        questions,
+        f,
+        indent=4,
+        ensure_ascii=False,
+    )
+
+print("=" * 40)
+print("Questions Parsed :", len(questions))
+
+if questions:
+    print("First :", questions[0]["question"])
+    print("Last  :", questions[-1]["question"])
+
+print("=" * 40)
